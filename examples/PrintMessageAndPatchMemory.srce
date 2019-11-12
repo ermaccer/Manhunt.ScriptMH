@@ -1,0 +1,14 @@
+SCRIPTMAIN    LevelScripts;
+
+ENTITY
+    Attic        :    et_level;
+
+SCRIPT OnCreate;
+VAR
+
+BEGIN
+      PushMessage('enabling san francisco box')
+      WriteMemory(8188088,4,1)
+end;
+
+END.
